@@ -8,6 +8,10 @@
 
 [Use Bun with Astro](https://docs.astro.build/en/recipes/bun/)
 
+[Tailwind](https://docs.astro.build/en/guides/styling/#tailwind)
+
+[daisyUI](https://daisyui.com/docs/install/)
+
 # 🚀 Project Structure
 
 ```text
