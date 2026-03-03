@@ -7,3 +7,22 @@
 [Bun](https://bun.com/docs/installation)
 
 [Use Bun with Astro](https://docs.astro.build/en/recipes/bun/)
+
+# 🚀 Project Structure
+
+```text
+/
+├── public/
+│   └── favicon.svg
+├── src
+│   ├── client
+│   │   ├── assets
+│   │   │   └── astro.svg
+│   │   ├── components
+│   │   │   └── Welcome.astro
+│   │   ├── layouts
+│   │   │   └── Layout.astro
+│   │   └── pages
+│   │       └── index.astro
+└── package.json
+```
