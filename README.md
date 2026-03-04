@@ -12,6 +12,12 @@
 
 [daisyUI](https://daisyui.com/docs/install/)
 
+[Prettier](https://docs.astro.build/en/editor-setup/#prettier)
+
+```bash
+bun add -d prettier-plugin-tailwindcss
+```
+
 # 🚀 Project Structure
 
 ```text
