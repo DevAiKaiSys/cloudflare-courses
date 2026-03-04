@@ -46,6 +46,8 @@ Validate JWTs
 
 Hono [Middleware](https://hono.dev/docs/guides/middleware) and [Custom Middleware](https://hono.dev/docs/guides/middleware#custom-middleware)
 
+[Cloudflare D1](https://developers.cloudflare.com/d1/get-started/)
+
 # 🚀 Project Structure
 
 ```text

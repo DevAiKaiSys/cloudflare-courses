@@ -1,5 +1,6 @@
 # my .gitignore file
 *.lock
+.wrangler/
 
 # build output
 dist/
