@@ -20,6 +20,18 @@ bun add -d prettier-plugin-tailwindcss
 
 [eslint-plugin-astro](https://ota-meshi.github.io/eslint-plugin-astro/user-guide/)
 
+[Hono](https://hono.dev/docs/getting-started/basic)
+
+```bash
+bun add hono
+```
+
+Cloudflare manage Worker projects
+
+[Wrangler](https://developers.cloudflare.com/workers/wrangler/)
+
+[concurrently](https://www.npmjs.com/package/concurrently)
+
 # 🚀 Project Structure
 
 ```text
