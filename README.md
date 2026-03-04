@@ -32,6 +32,20 @@ Cloudflare manage Worker projects
 
 [concurrently](https://www.npmjs.com/package/concurrently)
 
+Wrangler [Environments Examples](https://developers.cloudflare.com/workers/wrangler/environments/#examples)
+
+Cloudflare Access Enabled
+
+get JWKs URL and Audience (aud)
+
+Workers & Pages > {Project Name} > Settings > workers.dev > Cloudflare Access
+
+Validate JWTs
+
+[Cloudflare Workers example](https://developers.cloudflare.com/cloudflare-one/access-controls/applications/http-apps/authorization-cookie/validating-json/#cloudflare-workers-example)
+
+Hono [Middleware](https://hono.dev/docs/guides/middleware) and [Custom Middleware](https://hono.dev/docs/guides/middleware#custom-middleware)
+
 # 🚀 Project Structure
 
 ```text
