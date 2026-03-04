@@ -1,38 +1,40 @@
 {
-	"name": "cloudflare-hono-waitlist-template",
-	"main": "src/server/index.ts",
-	// Set this to today's date
-	"compatibility_date": "2026-03-04",
-	"assets": {
-		"directory": "./dist",
-		"binding": "ASSETS"
-	},
-	"d1_databases": [
-		{
-			"binding": "DB",
-			"database_name": "dojo_local_db",
-      		"database_id": "123"
-		}
-	],
-	"env": {
-		"staging": {
-			"vars": {
-				"ENVIRONMENT": "staging",
-				"CF_ACCESS_DOMAIN": "https://dev-aikaisys.cloudflareaccess.com",
-				"POLICY_AUD": "0c8af31dfb5d17a8adf5cae1a9cf326a99107d47acbe6793ff872b332e702d29"
-			},
-			"d1_databases": [
-				{
-					"binding": "DB",
-					"database_name": "dojo-staging-db",
-					"database_id": "8c0fde1c-95e4-47b0-805d-0604bc9fd1ad"
-				}
-			]
-		},
-		"production": {
-			"vars": {
-				"ENVIRONMENT": "production"
-			}
-		}
-	}
+  "name": "cloudflare-hono-waitlist-template",
+  "main": "src/server/index.ts",
+  // Set this to today's date
+  "compatibility_date": "2026-03-04",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "dojo_local_db",
+      "database_id": "123",
+      "migrations_dir": "./src/server/db/migrations"
+    }
+  ],
+  "env": {
+    "staging": {
+      "vars": {
+        "ENVIRONMENT": "staging",
+        "CF_ACCESS_DOMAIN": "https://dev-aikaisys.cloudflareaccess.com",
+        "POLICY_AUD": "0c8af31dfb5d17a8adf5cae1a9cf326a99107d47acbe6793ff872b332e702d29"
+      },
+      "d1_databases": [
+        {
+          "binding": "DB",
+          "database_name": "dojo-staging-db",
+          "database_id": "8c0fde1c-95e4-47b0-805d-0604bc9fd1ad",
+          "migrations_dir": "./src/server/db/migrations"
+        }
+      ]
+    },
+    "production": {
+      "vars": {
+        "ENVIRONMENT": "production"
+      }
+    }
+  }
 }

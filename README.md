@@ -48,6 +48,14 @@ Hono [Middleware](https://hono.dev/docs/guides/middleware) and [Custom Middlewar
 
 [Cloudflare D1](https://developers.cloudflare.com/d1/get-started/)
 
+[Drizzle ORM](https://orm.drizzle.team/docs/get-started/d1-new)
+
+[@cloudflare/workers-types](https://www.npmjs.com/package/@cloudflare/workers-types)
+
+or
+
+[wrangler types](https://developers.cloudflare.com/workers/languages/typescript/#migrating)
+
 # 🚀 Project Structure
 
 ```text
