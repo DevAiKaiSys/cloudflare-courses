@@ -1,5 +1,4 @@
 # my .gitignore file
-.DS_Store
 *.lock
 
 # build output

@@ -18,6 +18,8 @@
 bun add -d prettier-plugin-tailwindcss
 ```
 
+[eslint-plugin-astro](https://ota-meshi.github.io/eslint-plugin-astro/user-guide/)
+
 # 🚀 Project Structure
 
 ```text
