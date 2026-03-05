@@ -1,6 +1,7 @@
 # my .gitignore file
 *.lock
 .wrangler/
+test.sqlite
 
 # build output
 dist/

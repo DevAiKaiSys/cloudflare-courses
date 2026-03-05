@@ -56,6 +56,8 @@ or
 
 [wrangler types](https://developers.cloudflare.com/workers/languages/typescript/#migrating)
 
+[Drizzle Seed](https://orm.drizzle.team/docs/seed-overview)
+
 # 🚀 Project Structure
 
 ```text
@@ -74,3 +76,20 @@ or
 │   │       └── index.astro
 └── package.json
 ```
+
+# Local Dev
+
+- copy the `.env.example` as `.env`
+- install dependencies with `bun i`
+- `bun run dev`
+
+# Running Tests
+
+- `bun run test`
+
+# Deploying to Cloudflare
+
+- update the `wrangler.jsonc` with your env variables:
+  - POLICY_AUD
+  - CF_ACCESS_DOMAIN
+- `bun run deploy:staging` or `bun run deploy:prod`
